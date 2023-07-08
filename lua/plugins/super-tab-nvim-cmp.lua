@@ -39,4 +39,9 @@ return {
       end, { "i", "s" }),
     })
   end,
+  performance = {
+    trigger_debounce_time = 500,
+    throttle = 550,
+    fetching_timeout = 80,
+  },
 }

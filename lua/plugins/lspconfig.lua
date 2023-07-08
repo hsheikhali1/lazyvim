@@ -4,6 +4,7 @@ return {
   opts = {
     ---@type lspconfig.options
     servers = {
+      svelte = {},
       tsserver = {
         settings = {
           typescript = {

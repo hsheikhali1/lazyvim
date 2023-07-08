@@ -36,3 +36,9 @@ else
 end
 map("n", "<leader>bb", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
 map("n", "<leader>`", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
+
+-- glance
+map("n", "gT", "<cmd>Glance type_definition<cr>", { desc = "Glance type definition" })
+map("n", "gR", "<cmd>Glance references<cr>", { desc = "Glance references" })
+map("n", "gI", "<cmd>Glance implementations<cr>", { desc = "Glance implementations" })
+map("n", "gD", "<cmd>Glance definition<cr>", { desc = "Glance definition" })

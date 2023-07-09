@@ -27,13 +27,15 @@ return {
   --     },
   --   },
   -- },
+  { "Shatur/neovim-ayu" },
+  { "projekt0n/github-nvim-theme" },
   { "Mofiqul/vscode.nvim" },
   { "sainnhe/gruvbox-material" },
   { "rebelot/kanagawa.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "ayu-dark",
     },
   },
 }

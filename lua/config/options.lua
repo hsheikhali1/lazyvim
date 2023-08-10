@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.g.gruvbox_material_background = "hard"
+--vim.g.material_style = "deep ocean"
 
 -- let's change the annoying default leader!
 vim.g.mapleader = ","

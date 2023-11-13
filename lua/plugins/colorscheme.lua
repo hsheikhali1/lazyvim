@@ -72,18 +72,23 @@ return {
   --   end,
   -- },
   {
+    "olimorris/onedarkpro.nvim",
+    priority = 1000 -- Ensure it loads first
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
       --colorscheme = "ayu-dark",
       --colorscheme = "dracula",
       --colorscheme = "night-owl",
-      colorscheme = "nightfly",
+      --colorscheme = "nightfly",
       --colorscheme = "tokyonight",
       --colorscheme = "kanagawa",
       --colorscheme = "noctis",
       -- colorscheme = "darkplus",
       --colorscheme = "material",
       --colorscheme = "everforest",
+      colorscheme = "onedark_dark",
     },
   },
 }

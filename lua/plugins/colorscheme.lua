@@ -73,7 +73,13 @@ return {
   -- },
   {
     "olimorris/onedarkpro.nvim",
-    priority = 1000 -- Ensure it loads first
+    priority = 1000, -- Ensure it loads first
+  },
+
+  {
+    "olivercederborg/poimandres.nvim",
+    lazy = false,
+    priority = 1000,
   },
   {
     "LazyVim/LazyVim",
@@ -88,7 +94,8 @@ return {
       -- colorscheme = "darkplus",
       --colorscheme = "material",
       --colorscheme = "everforest",
-      colorscheme = "onedark_dark",
+      --colorscheme = "onedark_dark",
+      colorscheme = "poimandres",
     },
   },
 }

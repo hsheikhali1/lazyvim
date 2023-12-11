@@ -81,6 +81,8 @@ return {
     lazy = false,
     priority = 1000,
   },
+  { "EdenEast/nightfox.nvim" },
+  { "dasupradyumna/midnight.nvim", lazy = false, priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
@@ -93,9 +95,11 @@ return {
       --colorscheme = "noctis",
       -- colorscheme = "darkplus",
       --colorscheme = "material",
+      --colorscheme = "midnight",
       --colorscheme = "everforest",
       --colorscheme = "onedark_dark",
       colorscheme = "poimandres",
+      --colorscheme = "Carbonfox",
     },
   },
 }
